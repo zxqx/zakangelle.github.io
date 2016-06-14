@@ -73,13 +73,19 @@ body {
 
 .sample {
   height: 300px;
-  background: #ccc;
+  background: #ccc url(./images/noise.gif);
   box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 
 .sample img {
   max-height: 100%;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.sample img:hover {
+  opacity: 0.6;
 }
 
 .sample.tall img {
@@ -88,12 +94,23 @@ body {
 }
 
 h2 {
-  padding: 0 10px;
   display: inline-block;
-  background: #fff;
   font-family: 'Noto Serif';
   font-weight: 400;
   color: #444;
+}
+
+h2 a {
+  padding: 0 10px;
+  display: inline-block;
+  color: #444;
+  background: #fff;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: #000;
+  background: yellow;
 }
 
 @media(max-width: 725px) {
