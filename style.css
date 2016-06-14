@@ -1,11 +1,79 @@
-.main {
-  margin-top: 30px;
-  display: block;
-  font-size: 18px;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+
+.col {
+  /*border: 1px solid orange;*/
 }
 
-img {
-  width: 90%;
-  max-width: 400px;
+body {
+  margin: 0;
+  font-family: 'Fugaz One', sans-serif;
+}
+.header {
+  height: 150px;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 60px, 100% 0);
+}
+
+.logo {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  transform: rotate(-5deg);
+  font-size: 32px;
+  letter-spacing: -4px;
+  text-transform: lowercase;
+}
+
+.logo span {
+  display: inline-block;
+}
+
+.logo .letter-3 {
+  font-size: 37px;
+}
+
+.logo .letter-4 {
+  padding: 0 6px;
+  background: #fff;
+  color: #222;
+}
+
+.logo .letter-6 {
+  font-size: 42px;
+}
+
+.logo .letter-8,
+.logo .letter-9 {
+  font-size: 40px;
+}
+
+.logo .letter-10 {
+  font-size: 35px;
+}
+
+.title {
+  font-family: Arial;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.main {
+  margin: 20px 0;
+}
+
+.sample {
+  height: 300px;
+  background: #ccc;
+  overflow: hidden;
+}
+
+.sample img {
+  max-height: 100%;
+}
+
+.sample.tall img {
+  max-height: none;
+  max-width: 100%;
 }
