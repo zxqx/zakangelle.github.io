@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One');
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400italic);
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400italic');
+
+html {
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
@@ -16,12 +20,13 @@ body {
   background: #222;
   color: #fff;
   -webkit-clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
+  clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
 }
 
 .logo {
   position: absolute;
   top: 58px;
-  left: 260px;
+  left: 20.25%;
   transform: rotate(-5deg);
   font-size: 32px;
   letter-spacing: -4px;
@@ -89,4 +94,24 @@ h2 {
   font-family: 'Noto Serif';
   font-weight: 400;
   color: #444;
+}
+
+@media(max-width: 725px) {
+  .header {
+    -webkit-clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
+  }
+}
+
+@media(max-width: 580px) {
+  .header {
+    height: 128px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 177% 60px, 100% 0);
+    clip-path: polygon(0 0, 0 100%, 177% 60px, 100% 0);
+  }
+
+  .logo {
+    top: 45px;
+    left: 16%;
+  }
 }
