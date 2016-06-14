@@ -67,25 +67,18 @@ body {
 
 .sample {
   height: 300px;
-  background: #ccc url(./images/noise.gif);
   box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
   overflow: hidden;
 }
 
 .sample img {
   max-height: 100%;
-  opacity: 1;
-  transition: opacity 0.1s;
 }
 
 .sample a {
   display: block;
   width: 100%;
   height: 100%;
-}
-
-.sample:hover img {
-  opacity: 0.5;
 }
 
 .sample.tall img {
