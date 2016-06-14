@@ -75,7 +75,6 @@ body {
 .sample img {
   max-height: 100%;
   opacity: 1;
-  transition: opacity 0.2s;
 }
 
 .sample a {
@@ -85,7 +84,7 @@ body {
 }
 
 .sample:hover img {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .sample.tall img {
