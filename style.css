@@ -70,8 +70,6 @@ body {
   background: #ccc url(./images/noise.gif);
   box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
   overflow: hidden;
-  -webkit-perspective: 150px;
-  perspective: 150px;
 }
 
 .sample img {
@@ -87,9 +85,7 @@ body {
 }
 
 .sample:hover img {
-  opacity: 0.9;
-  -webkit-transform: rotateX(5deg);
-  transform: rotateX(5deg);
+  opacity: 0.5;
 }
 
 .sample.tall img {
