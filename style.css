@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400italic');
 
-html {
+html, body {
   overflow-x: hidden;
 }
 
