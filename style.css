@@ -61,8 +61,11 @@ body {
 }
 
 .main {
-  margin: 20px 0 0;
   text-align: center;
+}
+
+.col {
+  margin-top: 20px;
 }
 
 .sample {

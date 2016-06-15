@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css" >
+    <title>Zak Angelle / Front End Software Engineer</title>
+  </head>
+
+  <body>
+    <div class="row header">
+      <div class="col col-sm-12">
+        <div class="logo">
+          <span class="letter-1">Z</span>
+          <span class="letter-2">a</span>
+          <span class="letter-3">k</span>
+          <span class="letter-space">&nbsp;</span>
+          <span class="letter-4">A</span>
+          <span class="letter-5">n</span>
+          <span class="letter-6">g</span>
+          <span class="letter-7">e</span>
+          <span class="letter-8">l</span>
+          <span class="letter-9">l</span>
+          <span class="letter-10">e</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="main row center-xs">
+      <div class="col col-xs-10 col-sm-4">
+        <div class="sample tall">
+          <a href="https://github.com/goat-apps/showlist">
+            <img src="./images/showlist-1.png" />
+          </a>
+        </div>
+
+        <h2>
+          <a href="https://github.com/goat-apps/showlist">
+            showgoat
+          </a>
+        </h2>
+      </div>
+
+      <div class="col col-xs-10 col-sm-4">
+        <div class="sample">
+          <a href="https://wavedef.com">
+            <img src="./images/wavedef-1.png" />
+          </a>
+        </div>
+
+        <h2>
+          <a href="https://wavedef.com">
+            wavedef
+          </a>
+        </h2>
+      </div>
+    </div>
+
+    <div class="main row center-xs">
+      <div class="col col-xs-10 col-sm-4">
+        <div class="sample">
+          <a href="https://github.com/zakangelle/packlight">
+            <img src="./images/packlight-1.png" />
+          </a>
+        </div>
+
+        <h2>
+          <a href="https://github.com/zakangelle/packlight">
+            packlight
+          </a>
+        </h2>
+      </div>
+
+      <div class="col col-xs-10 col-sm-4">
+        <div class="sample tall">
+          <a href="https://muddohgs.com">
+            <img src="./images/muddohgs-1.png" />
+          </a>
+        </div>
+
+        <h2>
+          <a href="https://muddohgs.com">
+            mud dohgs
+          </a>
+        </h2>
+      </div>
+    </div>
+
+    <div class="main row center-xs">
+      <div class="col col-xs-10 col-sm-4">
+        <div class="sample">
+          <a href="https://github.com/zakangelle/d3-concentric-circles">
+            <img src="./images/d3-concentric-circles.png" />
+          </a>
+        </div>
+
+        <h2>
+          <a href="https://github.com/zakangelle/d3-concentric-circles">
+            d3-concentric-circles
+          </a>
+        </h2>
+      </div>
+
+      <div class="col col-xs-10 col-sm-4">
+        <div class="sample">
+          <a href="https://github.com/zakangelle/generator-redux-stack">
+            <img src="./images/generator-redux-stack.jpeg" />
+          </a>
+        </div>
+
+        <h2>
+          <a href="https://github.com/zakangelle/generator-redux-stack">
+            generator-redux-stack
+          </a>
+        </h2>
+      </div>
+    </div>
+
+  </body>
+</html>
