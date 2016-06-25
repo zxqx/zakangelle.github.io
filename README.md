@@ -1,5 +1,5 @@
 # zakang.name
 
-Personal site with resume and links and stuff.
+Personal site with work samples and stuff.
 
 [![See Site](https://img.shields.io/badge/see-site-219bc9.svg)](https://zakang.name/)
