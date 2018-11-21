@@ -76,7 +76,6 @@ p {
 
 .projects li.full-width {
   margin-bottom: 3rem;
-  padding: 2rem;
   width: 100%;
   height: auto;
   background: #000;
@@ -98,7 +97,7 @@ p {
 }
 
 .projects li.full-width a {
-  padding: 0;
+  padding: 2rem;
 }
 
 .projects a:hover .view-project-cta {
@@ -146,6 +145,9 @@ p {
 
   .projects li.full-width {
     margin-bottom: 2rem;
+  }
+
+  .projects li.full-width a {
     padding: 1rem;
   }
 
@@ -163,7 +165,7 @@ p {
     margin-bottom: 0;
   }
 
-  .projects li {
+  .projects li:not(.full-width) {
     padding-bottom: 3rem;
     width: calc(100% - 2rem);
     height: auto;
@@ -174,7 +176,7 @@ p {
   }
 
   .view-project-cta {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
