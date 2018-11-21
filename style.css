@@ -1,131 +1,189 @@
-@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400italic');
-
 html, body {
   overflow-x: hidden;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
   margin: 0;
-  padding-bottom: 50px;
-  font-family: 'Fugaz One', sans-serif;
-  background: url(./images/worn-dots.png);
-  color: #222;
-  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.3);
+  padding: 8% 16%;
+  border-top: 10px solid #000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.04'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-.header {
-  height: 150px;
-  padding: 10px;
-  background: #222;
-  color: #fff;
-  -webkit-clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
-  clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
-}
-
-.logo {
-  position: absolute;
-  top: 58px;
-  left: 20.25%;
-  transform: rotate(-5deg);
-  font-size: 32px;
-  letter-spacing: -4px;
-  text-transform: lowercase;
-}
-
-.logo span {
-  display: inline-block;
-}
-
-.logo .letter-3 {
-  font-size: 37px;
-}
-
-.logo .letter-4 {
-  padding: 0 6px;
-  background: #fff;
-  color: #222;
-}
-
-.logo .letter-6 {
-  font-size: 42px;
-}
-
-.logo .letter-8,
-.logo .letter-9 {
-  font-size: 40px;
-}
-
-.logo .letter-10 {
-  font-size: 35px;
-}
-
-.main {
-  text-align: center;
-}
-
-.col {
-  margin-top: 20px;
-}
-
-.sample {
-  height: 300px;
-  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-}
-
-.sample img {
-  max-height: 100%;
-}
-
-.sample a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.sample.tall img {
-  max-height: none;
-  max-width: 100%;
+h1 {
+  margin-bottom: 0;
+  font-size: 70px;
+  letter-spacing: -3px;
 }
 
 h2 {
-  display: inline-block;
-  font-family: 'Noto Serif';
-  font-weight: 400;
-  font-style: italic;
-  color: #444;
+  margin-top: 0;
+  font-weight: 300;
 }
 
-h2 a {
-  padding: 0 10px;
-  display: inline-block;
-  color: #444;
-  background: #fff;
-  text-decoration: none;
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 22px;
+  font-weight: 500;
 }
 
-h2 a:hover {
+p {
+  line-height: 24px;
+}
+
+.underline {
+  margin-bottom: 2rem;
+  width: 50px;
+  border-bottom: 10px solid #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.github-link {
   color: #000;
-  background: yellow;
+  transition: all 0.5s;
 }
 
-@media(max-width: 725px) {
-  .header {
-    -webkit-clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
-    clip-path: polygon(0 0, 0 100%, 130% 60px, 100% 0);
+.github-link:hover {
+  color: #444;
+}
+
+.github-icon {
+  margin: 5rem 2rem 0 0;
+  font-size: 60px;
+  text-align: right;
+}
+
+.projects {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects li {
+  position: relative;
+  margin: 2rem 2rem 0 0;
+  width: calc(25% - 2rem);
+  height: 180px;
+  background: #fff;
+  border-top: 3px solid #000;
+}
+
+.projects li.full-width {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  width: 100%;
+  height: auto;
+  background: #000;
+  border-bottom: none;
+}
+
+.projects li a {
+  padding: 1rem;
+  height: calc(100% - 2rem);
+  display: block;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.projects li a:hover {
+  color: #444;
+}
+
+.projects li.full-width a {
+  padding: 0;
+}
+
+.projects a:hover .view-project-cta {
+  opacity: 1;
+}
+
+.projects li img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.projects a:hover img {
+  opacity: 0.3;
+}
+
+.view-project-cta {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+@media(max-width: 1535px) {
+  .projects li {
+    width: calc(33.333% - 2rem);
+    height: 220px;
+  }
+}
+
+@media(max-width: 950px) {
+  .projects li {
+    width: calc(50% - 2rem);
+    height: 200px;
+  }
+
+  .projects li.full-width {
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+
+  .view-project-cta {
+    font-size: 24px;
+  }
+}
+
+@media(max-width: 800px) {
+  .github-link {
+    display: none;
+  }
+
+  .underline {
+    margin-bottom: 0;
+  }
+
+  .projects li {
+    padding-bottom: 3rem;
+    width: calc(100% - 2rem);
+    height: auto;
+  }
+
+  .projects li.full-width {
+    margin-bottom: 1rem;
+  }
+
+  .view-project-cta {
+    font-size: 16px;
   }
 }
 
 @media(max-width: 580px) {
-  .header {
-    height: 128px;
-    -webkit-clip-path: polygon(0 0, 0 100%, 177% 60px, 100% 0);
-    clip-path: polygon(0 0, 0 100%, 177% 60px, 100% 0);
+  h1 {
+    font-size: 50px;
   }
-
-  .logo {
-    top: 45px;
-    left: 16%;
+  
+  h2 {
+    font-size: 22px;
   }
 }
