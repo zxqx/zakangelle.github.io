@@ -132,6 +132,10 @@ p {
 }
 
 @media(max-width: 1535px) {
+  body {
+    padding: 6% 12%;
+  }
+
   .projects li {
     width: calc(33.333% - 2rem);
     height: 220px;
@@ -139,6 +143,10 @@ p {
 }
 
 @media(max-width: 950px) {
+  body {
+    padding: 4% 6%;
+  }
+
   .projects li {
     width: calc(50% - 2rem);
     height: 200px;
